@@ -49,3 +49,6 @@ Built a retrieval-augmented generation (RAG) app for PDF and DOCX question answe
 An ML based network intrusion detection pipeline analyzing network traffic features to classify flows as benign or malicious with 96.4% accuracy. Trained on the CICIDS benchmark dataset, the system processes network flow characteristics—derived from packet capture (.pcap) or csv files—to detect major attack vectors including DoS/DDoS, Port Scans, Brute Force, and Botnets. Built using a robust Random Forest ensemble model with stratified sampling to counter inherent network class imbalances, the pipeline features a Streamlit dashboard visualizing feature importance scoring for transparent model inference.
 </div>
 </div>
+
+
+{% include motion-polish.liquid %}
