@@ -18,3 +18,6 @@ nav_order: 3
 <div class="skill-row"><h4>Messaging & Distributed Systems</h4><div class="val">RabbitMQ</div></div>
 <div class="skill-row"><h4>Security</h4><div class="val">Keycloak · JWT · RBAC · Spring Security</div></div>
 <div class="skill-row"><h4>Dev Tools</h4><div class="val">Docker · Postman · Swagger/OpenAPI · Git · Streamlit</div></div>
+
+
+{% include motion-polish.liquid %}
