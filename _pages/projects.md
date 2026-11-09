@@ -36,9 +36,9 @@ Architected an production-grade, 9-service ecosystem featuring decoupled busines
 <div class="project-row">
 <div class="project-content">
 <h4>askPDF</h4>
-<div class="tech">FastAPI · LangChain · ChromaDB · Python · Streamlit · Ollama</div>
-<div class="links"><a href="https://github.com/jackyToras/mistral-rag-system" target="_blank">GitHub</a></div>
-A retrieval-augmented generation system for question answering over personal PDF and DOCX documents. Files are chunked with overlap, embedded, and stored in ChromaDB, with per-user isolation and source citations (filename and page) on every answer. Questions are matched by cosine similarity to the top-K relevant chunks, which are passed to a local LLM through Ollama. The pipeline is exposed through FastAPI REST endpoints and a Streamlit interface, and has been used by 264 people.
+<div class="tech">FastAPI · LangChain · ChromaDB · Ollama · Python · React.js · Tailwind CSS</div>
+<div class="links"><a href="https://github.com/jackyToras/askPDF" target="_blank">GitHub</a></div>
+Built a retrieval-augmented generation (RAG) app for PDF and DOCX question answering. The FastAPI and LangChain pipeline splits documents into 500-character chunks with 50-character overlap, stores embeddings in ChromaDB, and retrieves the top five results by cosine similarity. A local Ollama LLM generates context-grounded answers. Per-user data isolation and persistent chat history scope uploads and conversations to user IDs. The React and Tailwind CSS interface includes Markdown rendering and a timeout-aware REST client.
 </div>
 </div>
 <div class="project-row">
