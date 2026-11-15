@@ -19,6 +19,14 @@ nav_order: 2
 </style>
 <div class="project-row">
 <div class="project-content">
+<h4>askPDF</h4>
+<div class="tech">FastAPI · LangChain · ChromaDB · Ollama · Python · React.js · Tailwind CSS</div>
+<div class="links"><a href="https://github.com/jackyToras/askPDF" target="_blank">GitHub</a></div>
+Built a high-precision, privacy-first Retrieval-Augmented Generation (RAG) system for technical document question answering using FastAPI, LangChain, ChromaDB, and local Ollama (quantized Mistral-7B and nomic-embed-text). Engineered an optimized 500/50 recursive chunking strategy that eliminated context dilution on multi-hop compositional queries, slashing p50 inference latency by 37.3% (56.5s to 35.4s; p95: 69.9s) while achieving 100% Top-5 Retrieval Recall (Hit@5) and 100% answer accuracy on dense technical documents. Enforced deterministic multi-tenant data isolation, verifying 0 cross-tenant chunk leaks across 34 boundary queries (170 evaluated chunks) via ChromaDB user_id metadata predicates, and achieved a 100% grounded refusal rate on adversarial out-of-distribution trap queries. Includes an automated empirical evaluation harness (eval.py) and an interactive interface featuring real-time source attribution and conversational history.
+</div>
+</div>
+<div class="project-row">
+<div class="project-content">
 <h4>Distributed Task Queue System</h4>
 <div class="tech">Java · Spring Boot · RabbitMQ · Docker · AmazonEC2</div>
 <div class="links"><a href="https://github.com/jackyToras/Distributed-tasks-queue-system" target="_blank">GitHub</a> <a href="http://3.109.219.82:15672" target="_blank">Live</a></div>
@@ -31,14 +39,6 @@ Architected a high-throughput, distributed message queue designed to process hea
 <div class="tech">Spring Boot · RabbitMQ · React.js · MongoDB · API Gateway · Stripe · Keycloak · Docker</div>
 <div class="links"><a href="https://github.com/jackyToras/salon-appointment-system" target="_blank">GitHub</a></div>
 Architected an production-grade, 9-service ecosystem featuring decoupled business domains for bookings, payments, and notifications. Configured a Spring Cloud Gateway to route traffic dynamically using Eureka service discovery while securing endpoints via Keycloak JWT authentication. Implemented asynchronous, event-driven communication using RabbitMQ to process background transactions without blocking core operations. Orchestrated the entire infrastructure using Docker Compose with strict health-check dependencies to ensure a fault-tolerant container startup sequence.
-</div>
-</div>
-<div class="project-row">
-<div class="project-content">
-<h4>askPDF</h4>
-<div class="tech">FastAPI · LangChain · ChromaDB · Ollama · Python · React.js · Tailwind CSS</div>
-<div class="links"><a href="https://github.com/jackyToras/askPDF" target="_blank">GitHub</a></div>
-Built a high-precision, privacy-first Retrieval-Augmented Generation (RAG) system for technical document question answering using FastAPI, LangChain, ChromaDB, and local Ollama (quantized Mistral-7B and nomic-embed-text). Engineered an optimized 500/50 recursive chunking strategy that eliminated context dilution on multi-hop compositional queries, slashing p50 inference latency by 37.3% (56.5s to 35.4s; p95: 69.9s) while achieving 100% Top-5 Retrieval Recall (Hit@5) and 100% answer accuracy on dense technical documents. Enforced deterministic multi-tenant data isolation, verifying 0 cross-tenant chunk leaks across 34 boundary queries (170 evaluated chunks) via ChromaDB user_id metadata predicates, and achieved a 100% grounded refusal rate on adversarial out-of-distribution trap queries. Includes an automated empirical evaluation harness (eval.py) and an interactive interface featuring real-time source attribution and conversational history.
 </div>
 </div>
 <div class="project-row">
